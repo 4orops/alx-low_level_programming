@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
@@ -8,5 +7,9 @@
  */
 int main(void)
 {
-    return (0);
+printf(sizeof(int));
+printf(sizeof(float));
+printf(sizeof(char));
+printf(sizeof(long long));
+return (0);
 }
