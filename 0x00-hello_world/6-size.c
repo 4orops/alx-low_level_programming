@@ -10,6 +10,8 @@ int main(void)
 printf(sizeof(int));
 printf(sizeof(float));
 printf(sizeof(char));
-printf(sizeof(long long));
+printf(sizeof(long int));
+printf(sizeof(long long int));
+printf(sizeof(float));
 return (0);
 }
