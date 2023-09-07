@@ -7,9 +7,8 @@
  */
 int main(void)
 {
-printf(sizeof(int));
-printf(sizeof(float));
 printf(sizeof(char));
+printf(sizeof(int));
 printf(sizeof(long int));
 printf(sizeof(long long int));
 printf(sizeof(float));
