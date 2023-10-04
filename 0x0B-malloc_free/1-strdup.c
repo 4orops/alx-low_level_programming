@@ -3,13 +3,9 @@
 #include "main.h"
 
 /**
-
  * _strdup - duplicate a string
-
  * @str: char
-
  * Return: 0
-
  */
 
 char *_strdup(char *str)
@@ -29,7 +25,7 @@ char *_strdup(char *str)
 	if (newStr == NULL)
 		return (NULL);
 
-	for ( n = 0; str[n]; n++)
+	for (n = 0; str[n]; n++)
 		newStr[n] = str[n];
 
 	return (newStr);
