@@ -7,7 +7,7 @@
  * @grid: grid
  * @height: height of a dimension
  * return: nothing
- * */
+ **/
 
 void free_grid(int **grid, int height)
 {
