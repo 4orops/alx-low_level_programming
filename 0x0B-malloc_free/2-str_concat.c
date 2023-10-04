@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * str_concat - concatenate two strings into a new string without chnaging oeiginal
+ * str_concat - concatenate two strings into a new string 
  * @s1: first string to concatenate with
  * @s2: second string to concatenate with
  * Return: s1 and s2 concatenated
@@ -10,7 +10,7 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	char *conctStr ;
+	char *conctStr;
 	int i = 0;
 	int n = 0;
 
@@ -28,7 +28,6 @@ char *str_concat(char *s1, char *s2)
 
 	if (conctStr == NULL)
 		return (NULL);
-	
 	while (s1[i] != '\0')
 	{
 		conctStr[i] = s1[i];
