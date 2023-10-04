@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * str_concat - concatenate two strings into a new string 
+ * str_concat - concatenate two strings into a new string
  * @s1: first string to concatenate with
  * @s2: second string to concatenate with
  * Return: s1 and s2 concatenated
